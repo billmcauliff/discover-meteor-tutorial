@@ -1,0 +1,11 @@
+<template name="selectItem">
+ <select>
+   <option value=""> Please Select an Option</option>
+ {{#each select}}
+   <option value="{{zipcode}}"> {{location}} - {{zipcode}}</option>
+{{/each}}
+</select>
+                
+            
+</template>
+
